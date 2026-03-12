@@ -450,6 +450,8 @@ It detects the platform (RPi, Allwinner, x86_64, RISC-V, generic ARM),
 chooses the right partition scheme (MBR/GPT), boot mechanism,
 and wires up the correct Nerves toolchain automatically.
 
+[Nerves System Bootstrap](https://github.com/mlainez/nerves_system_bootstrap)
+
 <!-- end_slide -->
 
 <!-- jump_to_middle -->
@@ -1267,10 +1269,14 @@ Thank you!
 
 Questions?
 
-github.com/Spin42
-elixirforum.com/u/mlainez
+[My github](https://www.github.com/mlainez)
+
+[My company's github](https://www.github.com/Spin42)
+
+[My Elixirforum profile](https://www.elixirforum.com/u/mlainez)
 
 **The articles:**
 
-elixirforum.com/t/running-nerves-on-android-e-waste/70187
-elixirforum.com/t/the-journey-to-running-nerves-on-a-kobo-clara-e-reader/73331
+[Running Nerves on Android E-Waster posts](https://elixirforum.com/t/running-nerves-on-android-e-waste/70187)
+
+[The Journey to running Nerves on a Kobo Clara Colour ereader](https://elixirforum.com/t/the-journey-to-running-nerves-on-a-kobo-clara-e-reader/73331)
