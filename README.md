@@ -1063,7 +1063,7 @@ Parse their output instead.
 
 <!-- end_slide -->
 
-Replacing init scripts: enabling WiFi via sysfs (Kobo)
+Replacing init scripts: enabling WiFi via a character device (Kobo)
 ===
 
 WiFi is enabled by writing `"1"` to a device node, then
@@ -1088,6 +1088,8 @@ defp do_enable_wifi(wmt_wifi, ifname, attempts_left, retry_delay)
   end
 end
 ```
+
+This seems in line with the "activate/deactivate" wifi features in Android systems, but feels quite weird on a regular Linux...
 
 <!-- end_slide -->
 
